@@ -6,3 +6,10 @@ btnSend.addEventListener('click', () => {
         input1.value = '';
     }
 });
+
+const btn2 = document.querySelector('#btn2');
+const selectItem = document.querySelector('#task-select');
+btn2.addEventListener('click', () => {
+    alert(`Выбран: ${selectItem[selectItem.options.selectedIndex].textContent}`);
+    selectItem.value = selectItem[0].value;
+});

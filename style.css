@@ -1,3 +1,8 @@
 * {
     box-sizing: border-box;
 }
+
+.wrap-task2 * {
+    display: block;
+    margin-bottom: 10px;
+}
